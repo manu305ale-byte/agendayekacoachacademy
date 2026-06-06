@@ -1,11 +1,5 @@
 export const dynamic = 'force-dynamic';
 
 export default function Home() {
-  return (
-    <iframe
-      src="/agenda-v18.html?v=18.0"
-      title="Agenda Yeka Coach Academy 2027"
-      style={{ width: '100vw', height: '100dvh', border: 0, display: 'block' }}
-    />
-  );
+  return <iframe src="/agenda-v26.html?v=26.2" title="Agenda" style={{ width: '100vw', height: '100dvh', border: 0, display: 'block' }} />;
 }
